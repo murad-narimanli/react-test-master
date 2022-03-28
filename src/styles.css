@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .pageWrapper {
+    height: 100vh;
+    padding: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .listWrapper {
+    overflow: auto;
+    flex-grow: 1;
+    border: 1px solid black;
+    padding: 8px;
+    max-height: 70vh;
+    border-radius: 8px;
+  }
+  
+  .flag {
+    border-radius: 8px;
+  }
+
+  .flex{
+    padding: 0 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex div{
+    text-align: left;
+    width: 33%;
+  }
+
+  
